@@ -1,0 +1,104 @@
+
+/* LE CSS DE MAIN */
+
+html, body, section {
+	height: 100%;
+}
+body {
+	color: #fff;
+	text-align: center;
+	margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+h1
+{
+	font-size: 20px;
+}
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.notre-left .notre-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.notre-container {
+	display: flex;
+}
+.notre-left .notre-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.haut {
+	background: #858592;
+	color: #fff;
+}
+.notre-left {
+	background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(255, 255, 225, 0.10)), url("../img/entretien.jpg");
+	background-size: cover;
+	background-position: center;
+	flex: 1;
+	padding: 1rem;
+	transition: all .2s ease-in-out;
+}
+.notre-right {
+	background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(164, 222, 102, 0.10)), url("../img/entreprise.jpg");
+	background-size: cover;
+	background-position: center;
+	flex: 1;
+	padding: 1rem;
+	transition: all .2s ease-in-out;
+}
+.notre-left:hover, .notre-right:hover {
+	transform: scale(0.95);
+}
+.notre-left h1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 6rem;
+}
+.notre-right h1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 6rem;
+}
+.notre-button {
+	border-radius: 30px;
+	color: #ffff;
+	background-color: #fcad26;
+	padding: 1.5%;
+	margin: 0 2%;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	display: inline-block;
+	font-size: 1.5rem;
+	cursor: pointer;
+	transition: all 0.3s;
+	width: 150px;
+}
+.notre-button:hover {
+	background: #fcc567;
+	color: #fff;
+}
+
+.droite 
+{
+	float: left;
+}
